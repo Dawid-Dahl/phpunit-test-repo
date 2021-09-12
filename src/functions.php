@@ -2,13 +2,6 @@
 
 namespace App;
 
-function testFn()
-{
-    var_dump("LOL");
-
-    return 1;
-}
-
 function readCSV(string $csvPath)
 {
     $file = file($csvPath, FILE_IGNORE_NEW_LINES);
